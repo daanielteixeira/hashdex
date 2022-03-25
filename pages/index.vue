@@ -71,7 +71,7 @@ export default{
         
         var res = event.target.value
         if(res === 'ltc'){
-          this.url += ",-USD"
+          this.url += ",LTC-USD"
         }
         else if(res === 'eth'){
           this.url += ",ETH-USD"
